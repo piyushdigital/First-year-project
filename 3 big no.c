@@ -13,15 +13,15 @@ int main()
 	 
 	 
 	 
-	if (a>b & a>c){
+	if (a>b && a>c){
 		printf("%d is bigger",a);
 	}
-	else if (b>c & b>a) {
+	else if (b>c && b>a) {
 	 	printf("%d is bigger",b);
 	
 	 }
 	 else 
-	 printf("%d id bigger",c);
+	 printf("%d is bigger",c);
 
 	 return 0;
 	 
