@@ -1,22 +1,31 @@
 #include <stdio.h>
 int main()
 {
-	int num1,num2,sum_1,sub_2,mul,div,total_3,avg;
-	printf("Enter First number:\t");
-	scanf("%d",&num1);
-	printf("Enter Second number:\t");
-	scanf("%d",&num2);
-	sum_1=num1+num2;
-	printf("The addition of %d and %d is: %d",num1, num2,sum_1);
-	sub_2=num1-num2;
-	printf("\nThe subtraction of %d and %d is: %d",num1,num2,sub_2);
-	mul=num1*num2;
-	printf("\nThe multiplication of %d and %d is: %d",num1, num2,mul);
-	div=num1/num2;
-	printf("\nThe Division of %d and %d is: %d",num1, num2,div);
-	avg=sum_1/2;
-	printf("\nThe Averageof %d and %d is: %d",num1,num2,avg);
-    total_3=sum_1+sub_2;
-	printf("\nThe Addition of %d and %d is: %d",sum_1,sub_2,total_3);
+	int a, c, b, add, sub, mul, avg, div, mod;
+	
+	printf("Enter 1st number:\t");
+	scanf("%d",&a);
+	
+	printf("Enter 2nd number:\t");
+	scanf("%d",&b);
+	
+	add = a + b;
+	printf("The addition of %d & %d:\t%d", a, b, add);
+	
+	sub = a - b;
+	printf("\nThe subtraction of %d & %d:\t%d", a, b,sub);
+	
+	mul = a * b;
+	printf("\nThe multiplication of %d & %d:\t%d", a, b, mul);
+	
+	avg = (a + b) / 2;
+	printf("\nThe average of %d & %d:\t%d", a, b, avg);
+	
+	div = a / b;
+	printf("\nThe division of %d & %d:\t%d", a, b, div);
+	
+	mod = a % b;
+	printf("\nThe modulus of %d & %d:\t%d", a, b, mod);
+	
 	return 0;
 }
